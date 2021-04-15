@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluare </title>
+</head>
+<body>
+
+<div id="app">
+    <p>In ce limbaj programati?</p>
+        <p>
+            <input type="radio" name="limbaj" v-model="limbaj" value="JS">JavaScript
+        </p>
+        <p>
+            <input type="radio" name="limbaj" v-model="limbaj" value="Python">Python
+        </p>
+        <p>
+            <input type="radio" name="limbaj" v-model="limbaj" value="Java">Java
+        </p>
+            <p>Experienta <input v-model="experienta" type="text">ani</p>
+        <p>Salariu {{ salariu }}</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
